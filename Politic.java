@@ -33,3 +33,18 @@ class Politic
 		//ac.display();
 	}
 }
+<<<<<<< HEAD
+=======
+/*Enter Party Name
+BJP
+Enter Numbers of MLs
+28
+Enter number of Mlc
+87
+Enter number of MPs
+12
+Political Party NameBJP
+MLS28
+MLC87
+MP's12*/
+>>>>>>> 4b4fdb5 (all java code)

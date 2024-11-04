@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import java.util.*;
+=======
+
+>>>>>>> 4b4fdb5 (all java code)
 class Armostrong{
 	public static boolean isArm(int number){
 		int sum=0;
