@@ -24,6 +24,34 @@ class RotateArray {
         // Copy the result array back to the original array
         System.arraycopy(result, 0, nums, 0, nums.length);
     }
+    class Solution {
+        public void rotateLeft(int arr[], int d) {
+            int n = arr.length;
+    
+            // Normalize d to handle cases where d > n
+            d = d % n;
+    
+            // Reverse the first d elements
+            reverse(arr, 0, d - 1);
+    
+            // Reverse the remaining n-d elements
+            reverse(arr, d, n - 1);
+    
+            // Reverse the entire array
+            reverse(arr, 0, n - 1);
+        }
+    
+        // Helper method to reverse a section of the array
+        private void reverse(int arr[], int start, int end) {
+            while (start < end) {
+                int temp = arr[start];
+                arr[start] = arr[end];
+                arr[end] = temp;
+                start++;
+                end--;
+            }
+        }
+    }
     
     public static void main(String[] args) {
         RotateArray a = new RotateArray();
