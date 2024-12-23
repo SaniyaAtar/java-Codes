@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Add{
     // public static int factorial(int num){
     //     int sum=1;
@@ -48,3 +49,6 @@ class Add{
 
     }
 }
+=======
+
+>>>>>>> 04e28436a46a7e336660124363d5812d8bbf35f3

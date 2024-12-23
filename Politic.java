@@ -34,7 +34,10 @@ class Politic
 	}
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 04e28436a46a7e336660124363d5812d8bbf35f3
 /*Enter Party Name
 BJP
 Enter Numbers of MLs
@@ -46,5 +49,9 @@ Enter number of MPs
 Political Party NameBJP
 MLS28
 MLC87
+<<<<<<< HEAD
 MP's12*/
 >>>>>>> 4b4fdb5 (all java code)
+=======
+MP's12*/
+>>>>>>> 04e28436a46a7e336660124363d5812d8bbf35f3

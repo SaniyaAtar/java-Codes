@@ -29,8 +29,12 @@ class BracketMatch {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Your Bracket List");
         String str = sc.nextLine();
+<<<<<<< HEAD
         Practice p=new Practice();
         p.bracketCheck(str);
       //  System.out.println("Your Bracket match is : " + bracketMatch(str));
+=======
+        System.out.println("Your Bracket match is : " + bracketMatch(str));
+>>>>>>> 04e28436a46a7e336660124363d5812d8bbf35f3
     }
 }

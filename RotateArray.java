@@ -24,7 +24,11 @@ class RotateArray {
         // Copy the result array back to the original array
         System.arraycopy(result, 0, nums, 0, nums.length);
     }
+<<<<<<< HEAD
 class Solution {
+=======
+    class Solution {
+>>>>>>> 04e28436a46a7e336660124363d5812d8bbf35f3
         public void rotateLeft(int arr[], int d) {
             int n = arr.length;
     
