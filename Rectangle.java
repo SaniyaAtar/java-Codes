@@ -9,7 +9,7 @@ class Rectangle{
 	}
 	void display(){
 		int a;
-		a=height*width;
+		a = height*width;
 		System.out.println("Area of Rectangle is "+ a);
 	}
 	public static void main(String[] args) {

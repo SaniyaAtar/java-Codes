@@ -1,4 +1,4 @@
-import java.lang.*;
+
 /**
  * String
  */
@@ -7,7 +7,7 @@ public class StringProblem {
     return "hello world";
   }
     public static void main(String[] args) {
-    StringProblem sp=new StringProblem()
+    StringProblem sp=new StringProblem();
         sp.toString();
     }
 }
