@@ -8,6 +8,7 @@ public class ReverseString {
             char item=str.charAt(i);
             ch.push(item);
         }
+        System.out.println(ch);
         StringBuilder a=new StringBuilder();
 
         while(!ch.isEmpty()){
